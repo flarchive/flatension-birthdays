@@ -1,0 +1,75 @@
+.Badge--birthday {
+  --badge-bg: #d3241c;
+}
+
+// Core sizes the other text-like inputs of a centered form, but not date.
+.Form--centered .FormControl[type="date"] {
+  height: 50px;
+  padding: 15px 20px;
+  font-size: 15px;
+  text-align: center;
+
+  @media @phone {
+    font-size: 16px;
+  }
+}
+
+.BirthdayList-day + .BirthdayList-day {
+  margin-top: 30px;
+}
+
+.BirthdayList-date {
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--muted-color);
+}
+
+.BirthdayList-users {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.BirthdayList-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: var(--border-radius);
+  background: var(--control-bg);
+  color: var(--control-color);
+
+  &:hover,
+  &:focus {
+    background: var(--control-bg-shaded);
+    text-decoration: none;
+  }
+
+  .Avatar {
+    .Avatar--size(32px);
+  }
+}
+
+.BirthdayList-username {
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.BirthdayList-age {
+  margin-left: auto;
+  font-size: 13px;
+  color: var(--muted-color);
+  white-space: nowrap;
+}
+
+.BirthdayList-loadMore {
+  margin-top: 20px;
+  text-align: center;
+}

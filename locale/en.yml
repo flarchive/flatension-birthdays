@@ -1,0 +1,66 @@
+datlechin-birthdays:
+  admin:
+    permissions:
+      edit_own_birthday_label: Edit own birthday
+      view_birthday_label: View birthdays
+
+    settings:
+      min_age_help: Members must be at least this old. Applies whenever a birthday is saved. Set to 0 to only rule out dates in the future.
+      min_age_label: Minimum age
+      sign_up_help: Whether the sign-up form asks for a birthday.
+      sign_up_label: Birthday at sign-up
+      sign_up_options:
+        off: Don't ask
+        optional: Ask, optional
+        required: Ask, required
+
+    users:
+      birthday_column: => datlechin-birthdays.lib.birthday_label
+      no_birthday: Not set
+
+  forum:
+    badge:
+      birthday_tooltip: Birthday today
+
+    change_birthday:
+      submit_button: => core.ref.save_changes
+      title: => datlechin-birthdays.forum.settings.change_birthday_button
+
+    nav:
+      birthdays_link: => datlechin-birthdays.forum.page.title
+
+    notifications:
+      birthday_text: "Happy birthday from everyone at {forum}!"
+
+    page:
+      empty_text: No birthdays in the next week.
+      load_more_button: => core.ref.load_more
+      title: Birthdays
+      today_heading: Today
+      tomorrow_heading: Tomorrow
+      turns_text: "Turns {age}"
+
+    settings:
+      add_birthday_button: Add Birthday
+      change_birthday_button: Change Birthday
+      notify_birthday_label: Wish me a happy birthday
+      show_age_label: Show my age on my profile
+      show_birthday_label: Show my birthday on my profile
+
+    user_card:
+      age_text: "Age {age}"
+      birthday_and_age_text: "Birthday {date}, age {age}"
+      birthday_text: "Birthday {date}"
+
+  api:
+    future_birthday_message: Your birthday can't be in the future.
+    invalid_birthday_filter_message: "The birthday filter takes a date or a range of up to {max} days, like 2026-06-05..2026-06-11."
+    min_age_message: "You must be at least {age} years old."
+
+  lib:
+    birthday_label: Birthday
+
+    datetime_formats:
+      birthday: MMMM D
+      birthdayWithYear: LL
+      day: dddd, MMMM D

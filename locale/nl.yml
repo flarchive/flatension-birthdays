@@ -1,0 +1,66 @@
+datlechin-birthdays:
+  admin:
+    permissions:
+      edit_own_birthday_label: Eigen verjaardag aanpassen
+      view_birthday_label: Verjaardagen bekijken
+
+    settings:
+      min_age_help: Leden moeten minstens zo oud zijn. Geldt telkens wanneer een verjaardag wordt opgeslagen. Zet op 0 om alleen datums in de toekomst te weigeren.
+      min_age_label: Minimumleeftijd
+      sign_up_help: Of het registratieformulier om een verjaardag vraagt.
+      sign_up_label: Verjaardag bij registratie
+      sign_up_options:
+        off: Niet vragen
+        optional: Vragen, optioneel
+        required: Vragen, verplicht
+
+    users:
+      birthday_column: => datlechin-birthdays.lib.birthday_label
+      no_birthday: Niet ingevuld
+
+  forum:
+    badge:
+      birthday_tooltip: Vandaag jarig
+
+    change_birthday:
+      submit_button: => core.ref.save_changes
+      title: => datlechin-birthdays.forum.settings.change_birthday_button
+
+    nav:
+      birthdays_link: => datlechin-birthdays.forum.page.title
+
+    notifications:
+      birthday_text: "Gefeliciteerd met je verjaardag, namens iedereen op {forum}!"
+
+    page:
+      empty_text: Geen verjaardagen in de komende week.
+      load_more_button: => core.ref.load_more
+      title: Verjaardagen
+      today_heading: Vandaag
+      tomorrow_heading: Morgen
+      turns_text: "Wordt {age}"
+
+    settings:
+      add_birthday_button: Verjaardag toevoegen
+      change_birthday_button: Verjaardag aanpassen
+      notify_birthday_label: Feliciteer me op mijn verjaardag
+      show_age_label: Toon mijn leeftijd op mijn profiel
+      show_birthday_label: Toon mijn verjaardag op mijn profiel
+
+    user_card:
+      age_text: "Leeftijd {age}"
+      birthday_and_age_text: "Jarig op {date}, leeftijd {age}"
+      birthday_text: "Jarig op {date}"
+
+  api:
+    future_birthday_message: Je verjaardag kan niet in de toekomst liggen.
+    invalid_birthday_filter_message: "Het verjaardagsfilter verwacht een datum of een periode van maximaal {max} dagen, zoals 2026-06-05..2026-06-11."
+    min_age_message: "Je moet minstens {age} jaar oud zijn."
+
+  lib:
+    birthday_label: Verjaardag
+
+    datetime_formats:
+      birthday: D MMMM
+      birthdayWithYear: LL
+      day: dddd D MMMM
