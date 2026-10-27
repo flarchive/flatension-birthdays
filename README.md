@@ -2,13 +2,24 @@
 
 > **Read-only archive of released versions of datlechin/flarum-birthdays.** Not for installation: use [Packagist](https://packagist.org/packages/datlechin/flarum-birthdays) or the [upstream repository](https://github.com/flatension/birthdays).
 
-**0** versions archived · Latest: [`v3.0.0`](https://github.com/flarchive/flatension-birthdays/tree/archive/v3.0.0) · License: `MIT` · Flarum: `^2.0`
+**22** versions archived · Latest: [`v3.0.0`](https://github.com/flarchive/flatension-birthdays/tree/archive/v3.0.0) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v0.1.0` | 2022-01-05 | `^1.0.0` | [Browse](https://github.com/flarchive/flatension-birthdays/tree/archive/v0.1.0) |
+| `v0.1.1` | 2022-01-05 | `^1.0.0` | [Browse](https://github.com/flarchive/flatension-birthdays/tree/archive/v0.1.1) |
+| `v0.1.2` | 2022-01-06 | `^1.0.0` | [Browse](https://github.com/flarchive/flatension-birthdays/tree/archive/v0.1.2) |
+| `v0.1.3` | 2022-01-06 | `^1.0.0` | [Browse](https://github.com/flarchive/flatension-birthdays/tree/archive/v0.1.3) |
+| `v0.1.4` | 2022-01-07 | `^1.0.0` | [Browse](https://github.com/flarchive/flatension-birthdays/tree/archive/v0.1.4) |
+| `v0.1.5` | 2022-01-08 | `^1.0.0` | [Browse](https://github.com/flarchive/flatension-birthdays/tree/archive/v0.1.5) |
+| `v0.1.6` | 2022-01-08 | `^1.0.0` | [Browse](https://github.com/flarchive/flatension-birthdays/tree/archive/v0.1.6) |
+| `v0.1.7` | 2022-01-09 | `^1.0.0` | [Browse](https://github.com/flarchive/flatension-birthdays/tree/archive/v0.1.7) |
+| `v1.2.0` | 2022-01-20 | `^1.2` | [Browse](https://github.com/flarchive/flatension-birthdays/tree/archive/v1.2.0) |
+| `v1.2.1` | 2022-01-21 | `^1.2` | [Browse](https://github.com/flarchive/flatension-birthdays/tree/archive/v1.2.1) |
+
+[View all 22 versions](https://github.com/flarchive/flatension-birthdays/tags)
 
 Catalog entry: [packages/flatension-birthdays.json](https://github.com/flarchive/archive-index/blob/main/packages/flatension-birthdays.json)
 
